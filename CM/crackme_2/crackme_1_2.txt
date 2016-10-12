@@ -1,0 +1,6 @@
+GetDlgItemTextA()
+while()
+len = 7
+whyisme
+7 6 5 4 3 2 1 
+pbtepkd

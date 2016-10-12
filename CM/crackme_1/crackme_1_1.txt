@@ -1,0 +1,28 @@
+esi = 0
+esp = 0x0045F700
+
+begin :
+
+ecx = *(esp+esi+8)         //-> 0x**
+eax = *(esp+esi+0x70)      //-> 0x49
+edx = strlen(passwd)
+ecx = ecx - edx(6) + esi(0,1,2,3...5) //0x4F ONMLKJ
+if(eax == ecx){
+	esi ++
+	if(esi < edx){
+		goto begin
+	} else if(esi > edx){     //good job
+		goto exit
+	} else {                  //success
+		edx = loc_crackme.XX
+		ecx = *(cout good job)
+	}
+} else {
+	goto good_job 
+}
+exit :
+	nop
+
+0x0025FA60
+->49+6(O) 4C+5(Q) 6F+4(s) 76+3(y) 65+2(g) 58+1(Y)
+->OQsygY
