@@ -1,0 +1,21 @@
+v2 = "W{zsfu`axu`}{zg54M{a4c{z84Papq54Dxqugq84gqzp4m{af4g{xa`}{z:4OP^%|UP$I"
+v3 wait to get
+if(strlen(v3) <= 3){
+	result = 0;
+}
+else {
+	for(int i = 1; i <= 9; i++)
+		v5 = &v3 + i;
+		
+	v4 = v5(866) - 846;
+	j = -1;
+	while(j++){
+		v0 = j;
+		if(v0 >= strlen(v2))
+			break;
+		*(&v2+j) = *(&v2+j) ^ v4;
+	}
+	puts(v2);
+}
+so we only need to make sure that v5 == 866, that's work.
+1llllllmm len = 9
