@@ -1,0 +1,48 @@
+start
+|
+sub_4019A0()
+|
+start
+
+2108366133 -> 7dab1d35
+
+.data:00403000 unk_403000      db  41h ; A             ; DATA XREF: sub_4019A0+11Do
+.data:00403001                 db  75h ; u
+.data:00403002                 db 0C4h ; 
+.data:00403003                 db  0Eh
+.data:00403004                 db  50h ; P
+.data:00403005                 db  7Bh ; {
+.data:00403006                 db 0C2h ; 
+.data:00403007                 db  11h
+.data:00403008                 db  50h ; P
+.data:00403009                 db  6Eh ; n
+.data:0040300A                 db 0D9h ; 
+.data:0040300B                 db  18h
+.data:0040300C                 db  54h ; T
+.data:0040300D                 db  71h ; q
+.data:0040300E                 db 0C7h ; 
+.data:0040300F                 db    4
+.data:00403010                 db  41h ; A
+.data:00403011                 db  74h ; t
+.data:00403012                 db 0CEh ; 
+.data:00403013                 db  19h
+.data:00403014                 db  41h ; A
+.data:00403015                 db  75h ; u
+.data:00403016                 db 0CEh ; 
+.data:00403017                 db  1Bh
+.data:00403018                 db  5Ah ; Z
+.data:00403019                 db  71h ; q
+.data:0040301A                 db 0CFh ; 
+.data:0040301B                 db  18h
+.data:0040301C                 db  47h ; G
+.data:0040301D                 db  69h ; i
+.data:0040301E                 db 0C4h ; 
+.data:0040301F                 db  1Ah
+.data:00403020                 db  50h ; P
+.data:00403021                 db  69h ; i
+.data:00403022                 db 0C3h ; 
+.data:00403023                 db  18h
+.data:00403024                 db  47h ; G
+.data:00403025                 db    0
+.data:00403026                 db    0
+.data:00403027                 db    0
