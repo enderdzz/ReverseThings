@@ -1,0 +1,17 @@
+the key in the program used:
+"thosefilesreallytiedthefoldertogether" -> len = 37
+00401401 | F3 A5                 | rep movs dword ptr es:[edi],dword ptr ds:[esi]        Why have no changes?
+
+CryptDecrypt(HCRYPTKEY hKey, HCRYPTHASH hHash, BOOL Final, DWORD dwFlags, BYTE *pbData, DWORD *pdwDataLen)
+
+"call dword ptr ds:[402008]" this instruction is very important!
+
+To solve this, I do following three steps:
+1. Fix the IAT, add the decrypt function of avd**32.dll to IAT;
+2. Create a new folder named as "Briefcase" and put the file (which you want to decrypt) into the floder; 
+3. Use OD to dynmaically debug :
+	1) Need to modify the VolumeSerialNumber;
+	2) Need to modify the instruction "call dword ptr <&CryptEncrypt>" to "call dword ptr ds:[402008](<&CryptDecrypt>)";
+	
+Finally, you will found there are two pictures as .jpg file. And one of them contain the key.
+cl0se_t3h_f1le_0n_th1s_One@flare-on.com

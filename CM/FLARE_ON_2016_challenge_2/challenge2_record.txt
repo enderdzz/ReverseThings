@@ -4,7 +4,17 @@ sub_4019A0()
 |
 start
 
+C:\>vol
+ 驱动器 C 中的卷没有标签。
+ 卷的序列号是 ****-****
+
+GetVolumeInformationA(0, 0, 0, &VolumeSerialNumber, 0, 0, 0, 0)
+if ( VolumeSerialNumber == 0x7DAB1D35 )
+    result = 0x7DAB1D35;
+else
+    result = 0;
 2108366133 -> 7dab1d35
+
 
 .data:00403000 unk_403000      db  41h ; A             ; DATA XREF: sub_4019A0+11Do
 .data:00403001                 db  75h ; u
