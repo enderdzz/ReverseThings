@@ -3,6 +3,7 @@ Reverse Write Up:
 1.
 A ver easy calc problem. 
 The answer is the sum of 1 to 2666.
+python -c "print sum(range(1, 2666))"
 
 2.
 A C# prog.
