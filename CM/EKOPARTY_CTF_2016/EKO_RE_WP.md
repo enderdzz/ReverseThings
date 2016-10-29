@@ -31,14 +31,15 @@ EKO{ooOOoo_sup3r_r3g3x_challenge_OOooOO}
 
 I just download the software named as "ViewSavF" to open this .SAVF file and then see the flag.
 
-5. [\*]
+5.
+[\*]
 
 After the contest I was just known the file can be read in the format of IBM's EBCDIC encoding. And this encoding format can be set in the TCP stream packets.
 So I just use the 'nc' tool to send local loopback data packets and capture them :
 
 receiver:
 
-`nc -l -vv -p 2333 > CHALLENGE2.MBR`
+`➜  ~ nc -l -vv -p 2333 > CHALLENGE2.MBR`
 
 sender:
 
@@ -57,4 +58,5 @@ the flag is EKO{c0b0l_l33t_ekoparty_pgm_ftw}
 
 *Attachment: flag.png*
 
-6. [\*]
+6.
+[\*]
