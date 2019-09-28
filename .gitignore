@@ -26,3 +26,9 @@
 # Executables
 
 *.app
+*.db
+
+*.i64
+*.idb
+.DS_Store
+._*
