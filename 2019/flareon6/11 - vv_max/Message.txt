@@ -1,0 +1,127 @@
+Hey, at least its not subleq.
+
+
+
+.\vv_max.exe FLARE2019 0123456789abcdef0123456789abcdef
+
+
+func_17b0():
+memset +0x800 1024 bytes
+
+func_2300():
+(+800+pc[0]) = (+800+pc[1]) vpmaddubsw (+800+pc[2])
+return 32 * pc[0];
+pc += 4
+
+func_21E0():
+(+800+pc[0]) = (+800+pc[1]) vpmaddwd (+800+pc[2])
+return 32 * pc[0];
+pc += 4
+
+func_3030():	
+(+800+pc[0]) = (+800+pc[1]) vpxor (+800+pc[2])
+return 32 * pc[0];
+pc += 4
+
+func_2740():
+(+800+pc[0]) = (+800+pc[1]) vpor (+800+pc[2])
+return 32 * pc[0];
+pc += 4
+
+func_1dd0():
+(+800+pc[0]) = (+800+pc[1]) vpand (+800+pc[2])
+return 32 * pc[0];
+pc += 4
+
+func_2630():
+(+800+32*pc[0]) = (+800+32*pc[1]) vpxor ymmword_ff_140015980
+return 32*pc[0]
+pc += 3
+
+func_1cb0():
+(+800+pc[0]) = (+800+pc[1]) vpaddb (+800+pc[2])
+return 32 * pc[0];
+pc += 4
+
+func_2f10():
+(+800+pc[0]) = (+800+pc[1]) vpsubb (+800+pc[2])
+return 32 * pc[0];
+pc += 4
+
+func_1950():
+(+800+pc[0]) = (+800+pc[1]) vpaddw (+800+pc[2])
+return 32 * pc[0];
+pc += 4
+
+func_2bb0():
+(+800+pc[0]) = (+800+pc[1]) vpsubw (+800+pc[2])
+return 32 * pc[0];
+pc += 4
+
+func_1a70():
+(+800+pc[0]) = (+800+pc[1]) vpaddd (+800+pc[2])
+return 32 * pc[0];
+pc += 4
+
+func_2cd0():
+(+800+pc[0]) = (+800+pc[1]) vpsubd (+800+pc[2])
+return 32 * pc[0];
+pc += 4
+
+func_1b90():
+(+800+pc[0]) = (+800+pc[1]) vpaddq (+800+pc[2])
+return 32 * pc[0];
+pc += 4
+
+func_2df0():
+(+800+pc[0]) = (+800+pc[1]) vpsubq (+800+pc[2])
+return 32 * pc[0];
+pc += 4
+
+func_24e0():
+(+800+pc[0]) = (+800+pc[1]) vpmuldq (+800+pc[2])
+return 32 * pc[0];
+pc += 4
+
+func_2420():
+(+800+32*pc[0]) = (+800+32*pc[1])
+return 32 * pc[0];
+pc += 3
+
+func_2010():
+memcpy(+800+32*pc[0], &pc[1])
+pc += 32
+
+func_2980():
+(+800+pc[0]) = (+800+pc[1]) vpsrld (+800+pc[2])
+return 32*pc[0]
+pc += 4
+
+func_20d0():
+(+800+pc[0]) = (+800+pc[1]) vpslld (+800+pc[2])
+return 32*pc[0]
+pc += 4
+
+func_2a90():
+(+800+pc[0]) = (+800+pc[1]) vpshufb (+800+pc[2])
+return 32 * pc[0];
+pc += 4
+
+func_2860():
+(+800+pc[0]) = (+800+pc[2]) vpermd (+800+pc[1])
+return 32 * pc[0];
+pc += 4
+
+func_1ef0():
+(+800+pc[0]) = (+800+pc[1]) vpcmpeqb (+800+pc[2])
+return 32 * pc[0];
+pc += 4
+
+func_2600():
+pc + = 1
+return pc
+
+SetBreakpointLog mod.main()+0x1933, {ds:[rdx+rax*8+0xc08]}\ pc:\ {x:[ss:[rsp+0x40]+0xc00]}\ arg1:\ {x:[ss:[rsp+0x40]+1+[ss:[rsp+0x40]+0xc00]]}\ arg2:\ {x:[ss:[rsp+0x40]+2+[ss:[rsp+0x40]+0xc00]]}\ arg3:\ {x:[ss:[rsp+0x40]+3+[ss:[rsp+0x40]+0xc00]]}
+SetBreakpointLog mod.main()+0x1933, {ds:[rdx+rax*8+0xc08]}\ pc:\ {x:[ss:[rsp+0x40]+0xc00]}\ arg1:\ {d:[ss:[rsp+0x40]+1+[ss:[rsp+0x40]+0xc00]]&0xff}\ arg2:\ {d:[ss:[rsp+0x40]+2+[ss:[rsp+0x40]+0xc00]]&0xff}\ arg3:\ {d:[ss:[rsp+0x40]+3+[ss:[rsp+0x40]+0xc00]]&0xff}
+
+SetBreakpointCommand mod.main()+0x1933, erun

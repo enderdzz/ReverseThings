@@ -32,3 +32,12 @@
 *.idb
 .DS_Store
 ._*
+*.dmp
+*.raw
+
+*.til
+*.id0
+*.id1
+*.id2
+*.nam
+*.bin
