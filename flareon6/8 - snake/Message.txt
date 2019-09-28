@@ -1,0 +1,5 @@
+The Flare team is attempting to pivot to full-time twitch streaming video games instead of reverse engineering computer software all day. We wrote our own classic NES game to stream content that nobody else has seen and watch those subscribers flow in. It turned out to be too hard for us to beat so we gave up. See if you can beat it and capture the internet points that we failed to collect.
+
+6502 指令集详细介绍
+http://49.212.183.201/6502/6502_report.htm
+https://skilldrick.github.io/easy6502/

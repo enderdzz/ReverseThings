@@ -1,0 +1,82 @@
+Instruction context:
+
+ 101      98  LOAD_CONST               55296
+            100  LOAD_FAST                'num'
+            102  DUP_TOP
+            104  ROT_THREE
+            106  COMPARE_OP               <=
+            108  POP_JUMP_IF_FALSE   118  'to 118'
+            110  LOAD_CONST               57343
+            112  COMPARE_OP               <=
+            114  POP_JUMP_IF_TRUE    128  'to 128'
+            116  JUMP_FORWARD        120  'to 120'
+            118  ELSE                     '120'
+            118  POP_TOP
+          120_0  COME_FROM           116  '116'
+            120  LOAD_FAST                'num'
+            122  LOAD_CONST               1114111
+            124  COMPARE_OP               >
+->        126_0  COME_FROM           114  '114'
+            126  POP_JUMP_IF_FALSE   132  'to 132'
+
+
+# file ./PYC128.pyc
+
+Instruction context:
+
+ 358     474  LOAD_FAST                'self'
+            476  LOAD_ATTR                _method
+            478  LOAD_STR                 'HEAD'
+            480  COMPARE_OP               ==
+->        482_0  COME_FROM           466  '466'
+          482_1  COME_FROM           444  '444'
+          482_2  COME_FROM           434  '434'
+            482  POP_JUMP_IF_FALSE   492  'to 492'
+
+
+# file ./PYC100.pyc
+
+
+Instruction context:
+
+ 215     194  LOAD_FAST                'n'
+            196  LOAD_CONST               8
+            198  INPLACE_RSHIFT
+            200  STORE_FAST               'n'
+            202  JUMP_BACK           174  'to 174'
+            204  POP_BLOCK
+->          206  JUMP_FORWARD        216  'to 216'
+          208_0  COME_FROM           116  '116'
+          208_1  COME_FROM           110  '110'
+          208_2  COME_FROM            74  '74'
+Instruction context:
+
+ 886     192  LOAD_CONST               0
+            194  LOAD_FAST                'val'
+            196  DUP_TOP
+            198  ROT_THREE
+            200  COMPARE_OP               <=
+            202  POP_JUMP_IF_FALSE   220  'to 220'
+            204  LOAD_CONST               8
+            206  LOAD_FAST                'digits'
+            208  LOAD_CONST               1
+            210  BINARY_SUBTRACT
+            212  BINARY_POWER
+            214  COMPARE_OP               <
+            216  POP_JUMP_IF_FALSE   234  'to 234'
+            218  JUMP_FORWARD        224  'to 224'
+            220  ELSE                     '224'
+            220  POP_TOP
+            222  JUMP_FORWARD        234  'to 234'
+          224_0  COME_FROM           218  '218'
+            224  LOAD_GLOBAL              isinstance
+            226  LOAD_FAST                'val'
+            228  LOAD_GLOBAL              float
+            230  CALL_FUNCTION_2       2  ''
+->        232_0  COME_FROM           216  '216'
+            232  POP_JUMP_IF_FALSE   158  'to 158'
+          234_0  COME_FROM           222  '222'
+
+
+# file ./PYC62.pyc
+# Deparsing stopped due to parse error
