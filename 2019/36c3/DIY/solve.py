@@ -15,19 +15,19 @@ v6 = 0
 v3 = []
 while v6 < v4:
     v5 = v2[v6]
-    if v5 == 'P':
+    if v5 == 'P': # -- imm
         v6 += 1
         v7 = v2[v6:v6+3]
         v6 += 3
         v3.append(int(v7))
-    elif v5 == 'I':
+    elif v5 == 'I': # -- chr
         v6 += 1
         v8 = v2[v6:v6+3]
         v6 += 3
         # v8 = ord(passwd[int(v8)]) ## TODO: NOTE: Careful ord()!
         v8 = passwd[int(v8)]
         v3.append(v8)
-    elif v5 == 'D':
+    elif v5 == 'D': # -- a+b
         v6 += 1
         # v11 = len(v3)
         # v11 -= 1
@@ -63,7 +63,7 @@ while v6 < v4:
         v21 = 255 & (v18+v19-v20)
         v3.append(v21)
 
-    elif v5 == 'B':
+    elif v5 == 'B': # -- a-b
         v6 += 1
         # v22 = len(v3)
         # v22 -= 1
@@ -96,7 +96,7 @@ while v6 < v4:
         v30 = v23 & v24
         v31 = 255 & (v24+v29+v30)
         v3.append(v31)
-    elif v5 == 'L':
+    elif v5 == 'L': # -- a*b
         v6 += 1
         # v32= len(v3)
         # v32 -= 1
@@ -116,7 +116,7 @@ while v6 < v4:
             v37 = 255 & (-v38-v35+v36)
             v33 -= 1
         v3.append(v37)
-    elif v5 == 'V':
+    elif v5 == 'V': # -- a/b
         v6 += 1
         # v39 = len(v3)
         # v39 -= 1
@@ -140,7 +140,7 @@ while v6 < v4:
             v42 += 1
         '''
         v3.append(v40 / v41)
-    elif v5 == 'R':
+    elif v5 == 'R': # -- a^b
         v6 += 1
         # v48 = len(v3)
         # v48 -= 1
@@ -157,7 +157,7 @@ while v6 < v4:
         v51 = v60 & v61
         v52 = 255 & (v49-v50-v51)
         v3.append(v52)
-    elif v5 == 'Q':
+    elif v5 == 'Q': # -- a|b
         v6 += 1
         # v53 = len(v3)
         # v53 -= 1
@@ -189,7 +189,7 @@ while v6 < v4:
         v63 = v59 | v55
         v64 = 255 & (v63+v62-v59)
         v3.append(v64)
-    elif v5 == 'N':
+    elif v5 == 'N': # -- a&b
         v6 += 1
         # v65 = len(v3)
         # v65 -= 1
@@ -222,7 +222,7 @@ while v6 < v4:
         v73 = v66 & v71
         v74 = (v72+v73+v67)
         v3.append(v74)
-    elif v5 == 'H':
+    elif v5 == 'H': # -- a<<b 
         v6 += 1
         # v75 = len(v3)
         # v75 -= 1
@@ -236,7 +236,7 @@ while v6 < v4:
 
         v76 = 255 & (v76<<v77)
         v3.append(v76)
-    elif v5 == 'W': 
+    elif v5 == 'W': # -- a>>b
         v6 += 1
         # v78 = len(v3)
         # v78 -= 1
@@ -250,7 +250,7 @@ while v6 < v4:
 
         v79 = v79 >> v80
         v3.append(v79)
-    elif v5 == 'T':
+    elif v5 == 'T': # -- ~a
         v6 += 1
         # v81 = len(v3)
         # v81 -= 1
@@ -273,7 +273,7 @@ while v6 < v4:
         #     v82 += 1
         v86 = v82 ^ 0xff
         v3.append(v86)
-    elif v5 == 'O':
+    elif v5 == 'O': # -- pick
         v6 += 1
         v87 = int(v2[v6])
         v6 += 1
@@ -281,7 +281,7 @@ while v6 < v4:
         v88 = v88 - 1 - v87
         v89 = v3[v88]
         v3.append(v89)
-    elif v5 == 'E':
+    elif v5 == 'E': # -- nip
         v6 += 1
         v90 = int(v2[v6])
         v6 += 1
