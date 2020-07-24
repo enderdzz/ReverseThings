@@ -2,10 +2,11 @@
 
 There are some graceful or fierce reverse challenges I met in past CTFs.
 
-| Name                     | Year | From          | Summary                         | format   | Link | Rating |
+| Name                     | Year | From          | Summary                         | Format   | Link | Rating |
 | ------------------------ | ---- | ------------- | ------------------------------- | -------- | ---- | ------ |
 | w                        | 2020 | 0CTF          | multi-layers wasm               | ELF      |      |        |
 | J                        | 2020 | 0CTF          | nanomites + ollvm obfus + IDEA  | PE       |      |        |
+| flag-hunting             | 2020 | DEFCON  Qual  | inst tracing + custom ds        | TXT      |      |        |
 | three                    | 2019 | 36C3          | custom vm + SIMD + onlyMain     | ELF      |      |        |
 | starWars                 | 2019 | ctfzone       | transcription + acm             | PE       |      |        |
 | Parasite Validator       | 2019 | hack.lu       | WindowsInternal + crypto        | PE       |      |        |
