@@ -1,0 +1,27 @@
+Expect difficulty running this one. I suggest investigating why each error is occuring. Or not, whatever. You do you.
+
+           typedef struct {
+               uint32_t   p_type;
+               Elf32_Off  p_offset;
+               Elf32_Addr p_vaddr;
+               Elf32_Addr p_paddr;
+               uint32_t   p_filesz;
+               uint32_t   p_memsz;
+               uint32_t   p_flags;
+               uint32_t   p_align;
+           } Elf32_Phdr;
+
+           typedef struct {
+               uint32_t   p_type;
+               uint32_t   p_flags;
+               Elf64_Off  p_offset;
+               Elf64_Addr p_vaddr;
+               Elf64_Addr p_paddr;
+               uint64_t   p_filesz;
+               uint64_t   p_memsz;
+               uint64_t   p_align;
+           } Elf64_Phdr;
+
+JUST DEBUG IT USING GDB TO GET THE CORRECT VALUE IN WSL.
+
+Communicate between PE and ELF(WSL) using socket and COM. Amazing!

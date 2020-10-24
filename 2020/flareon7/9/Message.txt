@@ -1,0 +1,18 @@
+What kind of crackme doesn't even ask for the password? We need to work on our COMmunication skills.
+
+* Bug Notice: Avoid a possible blue-screen by debugging this on a single core VM
+
+mbstowcs() multichars -> wchar
+
+FOLDERID_LocalAppData
+GUID	{F1B32785-6FBA-4FCF-9D55-7B8E7F157091}
+Display Name	Local
+Folder Type	PERUSER
+Default Path	%LOCALAPPDATA% (%USERPROFILE%\AppData\Local)
+CSIDL Equivalent	CSIDL_LOCAL_APPDATA
+Legacy Display Name	Application Data
+Legacy Default Path	%USERPROFILE%\Local Settings\Application Data
+
+
+crackstaller.exe是一个驱动程序？会进行连接和建立cfs.dll中的服务，同时还有credHelper.dll进行通信，编辑注册表等操作。
+同时还有创建了一个xxx.sys驱动程序。

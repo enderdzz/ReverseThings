@@ -1,0 +1,5 @@
+One of our team members developed a Flare-On challenge but accidentally deleted it. We recovered it using extreme digital forensic techniques but it seems to be corrupted. We would fix it but we are too busy solving today's most important information security threats affecting our global economy. You should be able to get it working again, reverse engineer it, and acquire the flag.
+
+Learn UPX packer source code and unipacker (python tool.
+https://github.com/276793422/ReparePE
+And review the relocation table, RVA(VirtualAddress) + offset + ImageBase is the address where there is a value need to be relocated by the same way as relocating the address.

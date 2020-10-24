@@ -1,0 +1,18 @@
+One of our endpoints was infected with a very dangerous, yet unknown malware
+strain that operates in a fileless manner. The malware is - without doubt - an
+APT that is the ingenious work of the Cyber Army of the Republic of Kazohinia.
+
+One of our experts said that it looks like they took an existing banking
+malware family, and modified it in a way that it can be used to collect and
+exfiltrate files from the hard drive.
+
+The malware started destroying the disk, but our forensic investigators were
+able to salvage ones of the files. Your task is to find out as much as you can
+about the behavior of this malware, and try to find out what was the data that
+it tried to steal before it started wiping all evidence from the computer.
+
+Good luck!
+
+http://bytepointer.com/resources/tebpeb64.htm
+
+when met HeapCreate() in DLL, the debugger suddenly exited.

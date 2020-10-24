@@ -1,0 +1,370 @@
+ptrace_req: 16,	pid: 767,	addr: 00000000,	data: 00000000
+waitpid: 767
+ptrace_req: 5,	pid: 767,	addr: 08048cdb,	data: 00000b0f
+ptrace_req: 16,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000013
+waitpid: 768, stat: 19
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000013
+waitpid: 768, stat: 19
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+waitpid: 767, stat: 19
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+waitpid: 767, stat: 17
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+waitpid: 767, stat: 5
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+ptrace_req: 13,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+waitpid: 767, stat: 5
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 081a52a0,	data: 00000000
+ptrace_req: 5,	pid: 767,	addr: 081a52a0,	data: 00000000
+ptrace_req: 13,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+waitpid: 767, stat: 5
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+ptrace_req: 13,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+waitpid: 767, stat: 5
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 080563cc,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 080563d0,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 080563d4,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 080563d8,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 080563dc,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 080563e0,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 080563e4,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 080563e8,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 080563ec,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 080563f0,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 080563f4,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 080563f8,	data: 00000000
+welcome to the land of sunshine and rainbows!ptrace_req: 13,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+waitpid: 767, stat: 5
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: f7f28dc7,	data: 00000000
+
+ptrace_req: 13,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+waitpid: 767, stat: 5
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 080563fc,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056400,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056404,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056408,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 0805640c,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056410,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056414,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056418,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 0805641c,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056420,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056424,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056428,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 0805642c,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056430,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056434,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056438,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 0805643c,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056440,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056444,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056448,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 0805644c,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056450,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 08056454,	data: 00000000
+as a reward for getting this far in FLARE-ON, we've decided to make this one soooper easyptrace_req: 13,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+waitpid: 767, stat: 5
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: f7f28dc7,	data: 00000000
+
+ptrace_req: 13,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+waitpid: 767, stat: 5
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: f7f28dc7,	data: 00000000
+
+ptrace_req: 13,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+waitpid: 767, stat: 5
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d54c,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d550,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d554,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d558,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d55c,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d560,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d564,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d568,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d56c,	data: 00000000
+please enter a password friend :) ptrace_req: 13,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+waitpid: 767, stat: 5
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+12345678
+ptrace_req: 5,	pid: 767,	addr: ffd7faa0,	data: 72726f73
+ptrace_req: 5,	pid: 767,	addr: ffd7faa4,	data: 20692079
+ptrace_req: 5,	pid: 767,	addr: ffd7faa8,	data: 6c6f7473
+ptrace_req: 5,	pid: 767,	addr: ffd7faac,	data: 6f792065
+ptrace_req: 5,	pid: 767,	addr: ffd7fab0,	data: 69207275
+ptrace_req: 5,	pid: 767,	addr: ffd7fab4,	data: 7475706e
+ptrace_req: 2,	pid: 767,	addr: ffd7fab8,	data: 00000000
+ptrace_req: 5,	pid: 767,	addr: ffd7fab8,	data: 00293a20
+ptrace_req: 13,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+waitpid: 767, stat: 5
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+ptrace_req: 5,	pid: 767,	addr: 081a56c0,	data: 34333231
+ptrace_req: 5,	pid: 767,	addr: 081a56c4,	data: 38373635
+ptrace_req: 2,	pid: 767,	addr: 081a56c8,	data: 00000000
+ptrace_req: 5,	pid: 767,	addr: 081a56c8,	data: 0000000a
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 5,	pid: 767,	addr: ffd7fa90,	data: 081a56c0
+ptrace_req: 13,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+waitpid: 767, stat: 4
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 081a56c0,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 081a56c4,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: 081a56c8,	data: 00000000
+ptrace_req: 5,	pid: 767,	addr: 081a56c8,	data: 00000000
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+waitpid: 767, stat: 5
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+ptrace_req: 13,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+waitpid: 767, stat: 5
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 12,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 2,	pid: 768,	addr: ffd7b9ec,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f0,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f4,	data: 00000000
+ptrace_req: 2,	pid: 768,	addr: ffd7b9f8,	data: 00000000
+ptrace_req: 13,	pid: 768,	addr: 00000000,	data: ffd7ba48
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 11
+ptrace_req: 5,	pid: 767,	addr: 081a52a0,	data: 926976e3
+ptrace_req: 5,	pid: 767,	addr: 081a52a4,	data: f5e85cc7
+ptrace_req: 5,	pid: 767,	addr: 081a52a8,	data: 114dc585
+ptrace_req: 5,	pid: 767,	addr: 081a52ac,	data: e8f4fa16
+ptrace_req: 2,	pid: 767,	addr: 081a52b0,	data: 00000000
+ptrace_req: 5,	pid: 767,	addr: 081a52b0,	data: 00000000
+ptrace_req: 13,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+waitpid: 767, stat: 5
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+ptrace_req: 13,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+waitpid: 767, stat: 5
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d54c,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d550,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d554,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d558,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d55c,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d560,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d564,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d568,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d56c,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d570,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d574,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d578,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d57c,	data: 00000000
+ptrace_req: 2,	pid: 767,	addr: ffd7d580,	data: 00000000
+sorry, but 'sorry i stole your input :)' is not correct
+ptrace_req: 13,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+waitpid: 767, stat: 5
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7f40c48,	data: 00000000
+ptrace_req: 31,	pid: 767,	addr: 00000000,	data: 00000000
+ptrace_req: 7,	pid: 768,	addr: 00000000,	data: 00000000
+waitpid: 768, stat: 17
+waitpid: 767, stat: 5
+ptrace_req: 12,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 2,	pid: 767,	addr: f7e0f65b,	data: 00000000
+ptrace_req: 13,	pid: 767,	addr: 00000000,	data: ffd7fa8c
+ptrace_req: 7,	pid: 767,	addr: 00000000,	data: 00000000

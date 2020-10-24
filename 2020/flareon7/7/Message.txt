@@ -1,0 +1,19 @@
+Hello,
+
+Here at Reynholm Industries we pride ourselves on everything.
+It's not easy to admit, but recently one of our most valuable servers was breached. 
+We don't believe in host monitoring so all we have is a network packet capture.
+We need you to investigate and determine what data was extracted from the server, if any.
+
+Thank you
+
+PROPFIND。用于获取一个或多个资源的一个或多个特性。当客户机向服务器提交对某个集合的 PROPFIND 请求时，该请求可能会包含一个值为 0、1 或 infinity 的 Depth: 标头。
+0。指定将获取指定 URI 处的集合的特性。
+1。指定将获取该集合以及位于该指定 URI 之下与其紧邻的资源的特性。
+infinity。指定将获取该集合及其包含的所有成员 URI 的特性。由于深度为无穷大的请求需要遍历整个集合，因而会大大增加服务器的负担。
+LOCK。为资源添加锁。使用 Lock-Token: 标头。
+UNLOCK。删除资源的锁。使用 Lock-Token: 标头。
+
+Wireshark 最下方的字段提示非常有用，可用于字段查询。
+
+A little guessing I think.

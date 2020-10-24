@@ -1,0 +1,8 @@
+Reverse engineer this little compiled script to figure out what you need to do to make it give you the flag (as a QR code).
+
+
+# Why don't the DLL calling return any values using Python ctypes? 
+
+I just modify the computerName string during runtime, and scan the QR-code to get the correct flag.
+
+L00ks_L1k3_Y0u_D1dnt_Run_Aut0_Tim3_0n_Th1s_0ne!@flare-on.com

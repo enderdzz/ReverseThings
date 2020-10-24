@@ -1,0 +1,6 @@
+Now you can play Flare-On on your watch! As long as you still have an arm left to put a watch on, or emulate the watch's operating system with sophisticated developer tools.
+
+Here are some questions:
+1.  What does the ResourceCulture mean? And where is the correct offset of Runtime.dll? I just dump it using DnSpy.
+
+n3ver_go1ng_to_recov3r@flare-on.com
