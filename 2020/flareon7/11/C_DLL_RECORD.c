@@ -356,11 +356,13 @@ void __fastcall sub_180001070(int a1, __int64 a2)
 
 
 //case: 0xb961999e
-case: 0x1f31dc4 return (unsigned int)sub_18000326C(qword_180006078, v4, key, 0);
+case: 0x1f31dc4 
+        return (unsigned int)sub_18000326C(qword_180006078, v4, key, 0); key = "https://glory.to.kazohinia"
 //case: 0xbb49999e
 //case: 0xb961999e
 //case: 0xb961999e
-case: 0xcb26f5ee if ( (unsigned int)d6306e08_116_is_strToInt(key, a3) )
+case: 0xcb26f5ee 
+        if ( (unsigned int)d6306e08_116_is_strToInt(key, a3) )
           _InterlockedOr((volatile signed __int32 *)(mem + 180), 4u);
         else
           _InterlockedAnd((volatile signed __int32 *)(mem + 180), 0xFFFFFFFB);
@@ -372,7 +374,8 @@ case: 0xcb26f5ee if ( (unsigned int)d6306e08_116_is_strToInt(key, a3) )
 //case: 0xbb74999e
 //case: 0xb961999e
 //case: 0xb961999e
-case: 0xec0b7411 if ( !key || !StrToIntExA(key, 0, &piRet) )
+case: 0xec0b7411 
+        if ( !key || !StrToIntExA(key, 0, &piRet) )
           return v6;
         *(_DWORD *)(mem + 176) = piRet;
         return 0;
