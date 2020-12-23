@@ -4,6 +4,13 @@ There are some graceful or fierce reverse challenges I met in past CTFs.
 
 | Name                     | Year | From          | Summary                         | Format   | Link | Rating |
 | ------------------------ | ---- | ------------- | ------------------------------- | -------- | ---- | ------ |
+| -                        | 2020 | pbCTF         | *                               | *        |      |        |
+| app2c                    | 2020 | ByteCTF final | iOS ppa reverse                 | mach arm |      |        |
+| metal_revenge            | 2020 | WCTF final    | Intel metal ISA reverse         | PE       |      |        |
+| restless                 | 2020 | hxp           | C++ brute force md5 hash        | ELF      |      |        |
+| primary ingredient       | 2020 | HITCON        | haskell chall                   | ELF      |      |        |
+| Baby Flutter?            | 2020 | ByteCTF       | flutter vm                      | ELF      |      |        |
+| unlimited                | 2020 | 0CTF final    | fp: lambda Y-combinator         | ELF      |      |        |
 | w                        | 2020 | 0CTF          | multi-layers wasm               | ELF      |      |        |
 | J                        | 2020 | 0CTF          | nanomites + ollvm obfus + IDEA  | PE       |      |        |
 | flag-hunting             | 2020 | DEFCON  Qual  | inst tracing + custom ds        | TXT      |      |        |
