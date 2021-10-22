@@ -1,0 +1,38 @@
+Spell FON Application -- custom name...
+
+An error occurred. Please close the application and try again.
+
+using reshacker.
+
+I hate MFC! Just close the GUI window, then continue!
+
+AfxDlgProc
+|
+V
+AfxDynamicDownCast
+call rbx (virtual table). then print error string.
+
+GetProcAddress -> Retrieves the address of an exported function or variable from the specified dynamic-link library (DLL).
+GetCurrentProcess -> Retrieves a pseudo handle for the current process.
+
+PE after PE, dumped three PE.
+
+PE1: 0x952
+
+PE2: 0x104f
+
+change sleep to 5ms.
+
+C2 server is fooling you.
+
+bypass process name check.
+
+before written the xor encrypted text into registry key. 
+HKEY_CURRENT_USER\Software\Microsoft\spel
+
+
+Dynamic solution without scripts. Look carefully at sub_1F8822C2640 and XOR operations before writing into registry.
+
+l3rlcps_7r_vb33eehskc3@flare-on.com
+eliminate the xor in the final function, then you will get the precious moment. Doesn't make any sense though.
+b3s7_sp3llcheck3r_ev3r@flare-on.com

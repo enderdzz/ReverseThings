@@ -1,0 +1,52 @@
+After `upx -d`, I find the call stack of challenge logic through memory pattern match (provided by x86dbg) using strings displayed on the GUI.
+I also search for mouse click/up/down listening operations, but find nothing useful.
+
+AfxWndProc
+    | 
+    V
+AfxCallWndProc
+    | (indirect call)
+    V
+sub_44981F
+    | 
+    V
+CWnd::WindowProc
+    | (indirect call)
+    V
+CWnd::OnWndMsg
+    | (indirect call)
+    V 
+sub_438c98 small function
+    |
+    V
+parser_438cd3
+    |
+    V
+sub_430858 -> failed: you chose.. 
+
+
+There's a strange file named `fathom.dll` which contains the main logic of the correct selection check.
+There're 4 kinds of files, each of them has several parts of data. Need to rearrange them , permute and pass the hash check.
+
+
+script1: derelict MZZWP 78 p1
+script2: lagan    BAJkR 70 p2
+script3: flotsam  DFWEyEW 7C p2     [x]
+script4: flotsam  PXopvM 7C p1      [x] -> len: 20
+script5: derelict LDNCVYU 78 p2
+script6: derelict yXQsGB 78 p3
+script7: jetsam   newaui 74 p2      [x]
+script8: lagan    QICMX  70 p3
+script9: lagan    rOPFG  70 p1
+script10: jetsam  HwdwAZ 74 p3      [x]
+script11: jetsam  SLdkv  74 p1      [x] -> len: 17
+script12: derelict LSZvYSFHW 78 p2
+script13: flotsam BGgsuhn 7C p3     [x]
+script14: derelict LSZvYSFHW 78 p2
+script15: derelict RTYXAc 78 p4
+script16: lagan GTXI 70 p2
+
+
+ORDER: 4 3 13 | 11 7 10
+
+s1gn_my_gu357_b00k@flare-on.com

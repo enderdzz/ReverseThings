@@ -1,0 +1,27 @@
+the second package contains IEND PNG-like file format.
+Stream 0 3-57
+
+Stream 1 60-214
+
+look back on Flare-on 2019 mugatuware only same author... nothing learned.
+
+
+It's time to test search skill on the Internet!!!!!!
+From someone's twitter to this:
+https://wumb0.in/extracting-and-diffing-ms-patches-in-2020.html
+http://www.pingtaimeng.com/article/detail/id/1406849
+
+the file formats used to package a patch: .MSU (Microsoft Standalone Update) and .CAB (Cabinet)
+
+All patches are distributed as part of Windows Update on your device, but you can also still download standalone patches from the Microsoft Update Catolog.
+
+
+
+python .\delta_extract.py -i .\raw1.png .\meowware.bin -o raw.dll
+
+By default, users can debug only processes that they own. In order to debug processes owned by other users, you have to possess the *SeDebugPrivilege* privilege.
+If you let users debug processes owned by other users, then they can debug processes owned by System, at which point they can inject code into the process and perform the logical equivalent of net localgroup administrators anybody /add, thereby elevating themselves (or anybody else) to administrator.
+
+Solution is in parser.py. The most important thing is to find the correct source data when applying patches.
+1m_H3rE_Liv3_1m_n0t_a_C4t@flare-on.com
+Although I solved this challenge, I cannot figure out gibberish in the final plaintext.

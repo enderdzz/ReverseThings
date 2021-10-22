@@ -1,0 +1,14 @@
+https://mathiasbynens.be/notes/javascript-identifiers
+
+esprima and escodegen are useful tools to process AST of JavaScript.
+https://www.mattzeunert.com/2013/12/30/parsing-and-modifying-Javascript-code-with-esprima-and-escodegen.html
+https://github.com/austinbyers/esprima-ast-visitor
+
+z3 solve python API
+https://ericpony.github.io/z3py-tutorial/guide-examples.htm
+
+JSFuck!!!!!!!!!!!!!!!!
+very soundness tool used under **Firefox browser**:
+https://enkhee-osiris.github.io/Decoder-JSFuck/
+
+I_h4d_v1rtU411y_n0_r3h34rs4l_f0r_th4t@flare-on.com

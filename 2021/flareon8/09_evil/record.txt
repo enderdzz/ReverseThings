@@ -1,0 +1,104 @@
+VEH exception handler:
+https://dimitrifourny.github.io/2020/06/11/dumping-veh-win10.html
+
+_initterm inits the VEH using <ntdll.dll.RtlAddVectoredExceptionHandler>
+
+addVEH_6D16E4(1, myVEHhandler_406AD0)
+
+I need to record the function name when stopping at myVEHhandler_406AD0 and correct the 2 bytes "\xff\xd0" (call eax) after occurring exceptions. 
+
+Turning from x64dbg to IDA pro because the command `log {label@edi}` and `log {comment@edi}` do not work anymore!
+IDApython7.x totally sucks.
+
+Using breakpoint conditions function:
+
+```
+ida_dbg.wait_for_next_event(ida_dbg.WFNE_SUSP, -1) # It's very important.
+lib_addr = idc.get_reg_value("EDI")
+ept_addr = idc.get_reg_value("EAX")
+print(hex(lib_addr))
+ida_dbg.add_bpt(ept_addr+3, 1, ida_idd.BPT_DEFAULT) 
+print(ida_name.get_ea_name(lib_addr))
+return 1 # 1 will break(stop), 0 will continue.
+```
+
+It's not good, sometimes the `get_ea_name` returns null at runtime.
+
+
+Liu-xr/IDA-autodbg
+
+https://github.com/0xebfehat/ShadowPadAnalysisTools
+
+IDAPython cheatsheet
+https://gist.github.com/icecr4ck/7a7af3277787c794c66965517199fc9c
+
+```
+import time
+ida_dbg.add_bpt(ida_nalt.get_imagebase()+0x6b9b, 1, ida_idd.BPT_DEFAULT)
+ida_dbg.start_process()
+ida_dbg.wait_for_next_event(ida_dbg.WFNE_SUSP, -1)
+
+while True:
+    # bp reached
+    
+    ida_dbg.wait_for_next_event(ida_dbg.WFNE_SUSP, -1)
+    
+    lib_addr = ida_dbg.get_reg_val("EDI")
+    ept_addr = ida_dbg.get_reg_val("EAX")
+    print(hex(lib_addr))
+    call_eax_addr = ept_addr + 3
+    ida_dbg.add_bpt(call_eax_addr, 1, ida_idd.BPT_DEFAULT)
+    api_name = ida_name.get_ea_name(lib_addr)
+    
+    idc.set_cmt(call_eax_addr, api_name, 1)
+    ida_bytes.patch_byte(ept_addr+2, 0x90)
+    
+    if api_name == "kernel32_ExitProcess":
+        break
+    
+    ida_dbg.continue_process()
+    ida_dbg.wait_for_next_event(ida_dbg.WFNE_SUSP, -1)
+    ida_dbg.continue_process()
+    #time.sleep(1)
+```
+
+https://anti-debug.checkpoint.com/techniques/process-memory.html#patch_ntdll_dbguiremotebreakin
+
+KERNEL32.DLL:774CAF30                   ntdll_DbgUiRemoteBreakin proc near
+KERNEL32.DLL:774CAF30 6A 00             push    0
+KERNEL32.DLL:774CAF32 68 FF FF FF FF    push    0FFFFFFFFh
+KERNEL32.DLL:774CAF37 B8 D0 F4 FC 76    mov     eax, 76FCF4D0h
+KERNEL32.DLL:774CAF3C FF D0             call    eax ; kernel32_TerminateProcess
+
+
+root/cimv2: The WMI namespace root/cimv2 is the default namespace and contains classes for computer hardware and configuration.
+
+RPC_C_AUTHN_WINNT 10 NTLMSSP
+NTLMSSP, whose authentication service identifier is RPC_C_AUTHN_WINNT, is a security support provider that is available on all versions of DCOM. 
+
+WQL (SQL for WMI)
+SELECT * FROM Win32_PnPEntity 
+DeviceId 
+CWbemInstance
+
+After running 0x34e2, there are 3 new threads starting.
+
+NtSetLdtEntries is hard to understand...
+https://j00ru.vexillium.org/2011/06/protected-mode-segmentation-as-a-powerful-anti-debugging-measure/
+
+Decompilation failure:
+CB302A: invalid basic block
+
+This error means that at the specified address there is a basic block, which does not end properly. For example, it jumps out of the function, ends with a non-instruction, or simply contains garbage. If you can, try to correct the situation by modifying the function boundaries, creating instructions, or playing with function tails. Usually this error happens with malformed functions.
+If the error happens because of a call, which does not return, marking the called function as "noret" will help. If the call is indirect, adding a cross reference to a "noret" function will help too.
+If this error occurs on a database created by an old version of IDA, try to reanalyze the program before decompiling it. In general, it is better to use the latest version of IDA to create the databases for decompilation.
+**Unrecognized table jumps may lead to this failure too.**
+
+WSAEACCES
+10013
+Permission denied.
+An attempt was made to access a socket in a way forbidden by its access permissions. An example is using a broadcast address for sendto without broadcast permission being set using setsockopt(SO_BROADCAST). 
+Another possible reason for the WSAEACCES error is that when the bind function is called (on Windows NT 4.0 with SP4 and later), another application, service, or kernel mode driver is bound to the same address with exclusive access. Such exclusive access is a new feature of Windows NT 4.0 with SP4 and later, and is implemented by using the SO_EXCLUSIVEADDRUSE option.
+
+
+I HATE '\x00' CHAR! Oh... AND EXCEPTIONS!!!!

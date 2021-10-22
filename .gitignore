@@ -1,3 +1,5 @@
+**/node_modules
+
 **/__pycache__
 **/.vscode
 # Compiled Object files
@@ -28,15 +30,24 @@
 
 # Executables
 
+*.exe
 *.app
 *.db
 
+*.pcapng
+*.pcap
+
 *.i64
 *.idb
+*.bak
 .DS_Store
 ._*
 *.dmp
 *.raw
+
+*.mf
+*.ovf
+*.vmdk
 
 *.til
 *.id0
