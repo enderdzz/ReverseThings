@@ -1,0 +1,28 @@
+useless things.
+
+$(ping -n 1 10.65.45.3 | findstr /i ttl) -eq $null;$(ping -n 1 10.65.4.52 | findstr /i ttl) -eq $null;$(ping -n 1 10.65.31.155 | findstr /i ttl) -eq $null;$(ping -n 1 flare-on.com | findstr /i ttl) -eq $null
+
+$(ping -n 1 10.10.10.4 | findstr /i ttl) -eq $null;$(ping -n 1 10.10.50.10 | findstr /i ttl) -eq $null;$(ping -n 1 10.10.22.50 | findstr /i ttl) -eq $null;$(ping -n 1 10.10.45.19 | findstr /i ttl) -eq $null
+
+
+nslookup flare-on.com | findstr /i Address;nslookup webmail.flare-on.com | findstr /i Address
+
+$(ping -n 1 10.65.4.50 | findstr /i ttl) -eq $null;$(ping -n 1 10.65.4.51 | findstr /i ttl) -eq $null;$(ping -n 1 10.65.65.65 | findstr /i ttl) -eq $null;$(ping -n 1 10.65.53.53 | findstr /i ttl) -eq $null;$(ping -n 1 10.65.21.200 | findstr /i ttl) -eq $null
+
+Get-NetTCPConnection | Where-Object {$_.State -eq "Established"} | Select-Object "LocalAddress", "LocalPort", "RemoteAddress", "RemotePort"
+
+[System.Environment]::OSVersion.VersionString
+
+Get-NetIPAddress -AddressFamily IPv4 | Select-Object IPAddress
+
+Get-ChildItem -Path 'C:\Program Files (x86)' | Select-Object Name
+
+Get-ChildItem -Path 'C:' | Select-Object Name
+
+Get-NetNeighbor -AddressFamily IPv4 | Select-Object "IPADDress"
+
+systeminfo | findstr /i \"Domain\"
+
+Get-NetIPConfiguration | Foreach IPv4DefaultGateway | Select-Object NextHop
+
+Get-DnsClientServerAddress -AddressFamily IPv4 | Select-Object SERVERAddresses

@@ -8,6 +8,7 @@
 *.o
 *.obj
 **/*.pyc
+**/*.pyd
 
 # Precompiled Headers
 *.gch
@@ -57,3 +58,6 @@
 *.bin
 7777.data
 7777.ex
+
+
+.nvimlog

@@ -1,0 +1,10 @@
+Use NEXE(Windows) to compile the anode.js script extracted from the chall.
+Use diaphora to generate two sqlite databases to diff the binaries.
+
+need to learn more about v8 internals:
++ ToBooleanIsTrue (140a5a700)
++ RefillRandom && RandomSeed (140832ee0 & 140d8dc60)
+REF:
+https://apechkurov.medium.com/v8-deep-dives-random-thoughts-on-math-random-fb155075e9e5
+
+disappointed at z3...

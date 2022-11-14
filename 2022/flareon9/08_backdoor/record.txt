@@ -1,0 +1,5 @@
+Shellcoding dotNet.
+
+We need to get the right stacktrace string from dynamic method invoke (Reflection) to generate the right RC4 key then padding it to 256 length and use it to decrypt the first PE excrypted section.
+
+https://stackoverflow.com/questions/40150121/create-dynamicmethod-from-actiont-instructions

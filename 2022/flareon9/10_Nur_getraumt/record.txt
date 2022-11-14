@@ -1,0 +1,13 @@
+Very frustrating challenge. Tooling game!
+
+I've tried many tools, at last it still works only on my own understanding of the 68k disassembly code in ResEdit.
+I tried my best to extract the .sit archive from the disk image in disk copy 4.2 format, but failed many times. 
+StuffIt Expander did not work either.
+I also installed many apps (ImportFl and exportFl) provided from mini vmac site to operate the binary.
+Also trying to install MacsBug 6.6.x (.sit or .hqx) into Sheepshaver(MacOS9), BasiliskII and mini vmac(Macintosh), but failed. I see some people worked out by the help of QEMU.
+And 
+
+Finally I installed CiderPress (HFVExplorer don't work) in Windows, but it still cannot extract the files in the disk which I converted from original image using convert2dsk. Zero-sized extracted files! Drag the file from OS 9 to host machine folder won't help either. https://superuser.com/questions/96758/copy-files-from-mac-os-9-to-windows-7
+
+So I give up and come back to read the disassembly carefully. During this time, I learned lot about 68k instructions with the PDF 68000.68010.68020.primer, but it don't introduce the GUI traps like _GetIText. Then I found I can copy the hex code in ResEdit from Emulator by chance, I feed the binary into Ghidra which cannot handle the GUI traps instruction either, but it validates my understanding of the logic of decode_flag function anyway.
+So the final problem is to find the final key, I noticed that the flag resource named with "99 balloon", it may be a song's name, and the key is guessed from its lyric. I don't like this challenge in the end. Too guessy.
